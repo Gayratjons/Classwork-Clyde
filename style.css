@@ -1,0 +1,110 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+hr{
+    border: 1px solid #6A6A6A;
+    background-color: #6A6A6A;
+}
+.text{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #54410C;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.site{
+    width: 100%;
+    height: auto;
+    background-color: #FFFDF8;
+}
+.site-nav__img{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 400px)
+{
+    .site{
+        width: 400px;
+        background-color: #FFFDF8;  
+    }
+    .site-nav__texts{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .site-nav__text{
+        font-size: 18px;
+    }
+    .site-section__text{
+        font-size: 28px;
+        color: #000;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+    .site-section__cards{
+        margin-bottom: 67px;
+    }
+    .site-section__card{
+        width: 360px;
+        height: 661px;
+        border: 3px solid #54410C;
+        margin-top: 67px;
+    }
+    .site-section__card--text{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .vilka-qoshu{
+        display: flex;
+    }
+    .hrs{
+        margin:  10px;
+    }
+    .hr1{
+        width: 130px;
+        margin-bottom: 5px;
+    }
+    .site-section__card--text2{
+        font-size: 18px;
+        width: 300px;
+    }
+    .site-section__cards--link{
+        width: 300px;
+        height: 60px;
+        background-color: #54410C;
+        font-weight: 500;
+        font-size: 24px;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .footer{
+        background-color: #322707;
+        width: 400px;
+        height: 722px;
+    }
+    .site-footer_section{
+        width: 360px;
+        height: 100px;
+        background-color: #5F4E1C;
+    }
+    .site-footer__text{
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        padding-top: 13px;
+        margin-bottom: 5px;
+    }
+    .map{
+        width: 350px;
+        height: 200px;
+        border: 3px solid #C2BDB0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
